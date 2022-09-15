@@ -1,4 +1,4 @@
-# Flask_Website
+# Notes
 
 > Put JS, CSS, or Images inside of static folder inside of website
 
