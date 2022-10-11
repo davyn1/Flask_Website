@@ -1,0 +1,32 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %}
+
+{% block content%}
+<style>
+    img {
+        width = 100%;
+        height: auto;
+        }
+</style>
+<body>
+<div class="img-with-txt">
+<img src="static/images/sushi.jpg" alt="" width="400" height="200">
+</body>
+<h1 align="center">Notes</h1>
+<ul class="list-group list-group-flush" id="notes">
+    {% for note in user.notes %}
+    <li class="list-group-item">{{ note.data }}
+        <button type="button" class="close" onClick="deleteNote({{ note.id }})">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </li>
+    {% endfor %}
+</ul>
+</div>
+<form method="POST">
+    <textarea name="note" id="note" class="form-control" width="200" height="400"></textarea>
+    <br />
+    <div align = "center">
+        <button type ="submit" class="btn btn-primary">Add Notes</button>
+    </div>
+</form>
+{% endblock %}
