@@ -6,6 +6,6 @@
 2. Save / Delete Notes
 3. Label Pictures
 > Work In Progress Features: 
-[x] Assign recipes to a picture
-[ ] Redirect to a different page for each recipe
-[ ] Fix up styling of page from basic
+- [x] Assign recipes to a picture
+- [ ] Redirect to a different page for each recipe
+- [ ] Fix up styling of page from basic
