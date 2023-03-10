@@ -46,7 +46,6 @@
         </div>
       </div>
     </nav>
-
     {% with messages = get_flashed_messages(with_categories=true) %} {% if
     messages %} {% for category, message in messages %} {% if category ==
     'error' %}
@@ -86,5 +85,6 @@
       type="text/javascript"
       src="{{ url_for('static', filename='index.js') }}"
     ></script>
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
   </body>
 </html>
