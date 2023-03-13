@@ -9,3 +9,4 @@
 - [x] Assign recipes to a picture
 - [ ] Redirect to a different page for each recipe
 - [ ] Fix up styling of page from basic
+- [ ] Create an instructions page filled with steps and necessary module installations.
