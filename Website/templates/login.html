@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% block title %}Login{% endblock %}
 {% block content%}
-<div class="container">
+<div class="container d-flex align-items-center justify-content-center">
     <div class="row justify-content-center">
-        <div class="col-md-6">
+        <div class="col-md-8 col-lg-6">
             <form method="POST" class="p-5 bg-secondary rounded-lg">
                 <h3 align="center">Login</h3>
                 <div class="form-group">
@@ -31,6 +31,9 @@
 
 <style>
 .container {
+    height: 100vh;
+}
+.col-md-8 {
     max-width: 800px;
 }
 .form-control {
